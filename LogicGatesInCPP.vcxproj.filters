@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Includes">
+      <UniqueIdentifier>{b768794b-1ead-4dda-8cf1-2ab258653f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Includes\LogicGateLibrary">
+      <UniqueIdentifier>{9b2b129a-e01a-45d0-96c2-c0fd1d7bd69d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LogicGatesInCPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\LogicGateLibrary\Logic.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\MultipleInput.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\Nand.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\Nor.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\Not.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\Or.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\SingleInput.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\Xnor.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\Xor.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\And.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\Gate.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\Version.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\LogicGateLibrary.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\Numeric.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
