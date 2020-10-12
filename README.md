@@ -1,5 +1,6 @@
-# LogicGatesInCPP
+# LOGIC GATES IN C++
 
+#### Using the Component Design Pattern
 <img src="Assets\ClassDiagramImage.PNG" title="Class Diagram Image">
 
 #### Logic gates
