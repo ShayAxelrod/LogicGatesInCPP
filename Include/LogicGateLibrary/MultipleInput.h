@@ -1,16 +1,16 @@
 #pragma once
 #include <numeric>
-#include "Gate.h"
+#include "IGate.h"
 
 template<typename T=u_char>
-class MultipleInput : public Gate<T>{
+class MultipleInput : public IGate<T>{
 public:
     MultipleInput(){
-        input = std::make_shared<std::vector<Logic<T>*>>();
+        input = std::make_shared<std::vector<ILogic<T>*>>();
     }
 
 protected:
-    std::shared_ptr<std::vector<Logic<T>*>> input = nullptr;
+    std::shared_ptr<std::vector<ILogic<T>*>> input = nullptr;
 
     template<typename First>
     void insertInputsToVector(First* input1){
@@ -23,7 +23,7 @@ protected:
         insertInputsToVector(others...);
     }
 
-    void add(Logic<T>* logic){
+    void add(ILogic<T>* logic){
         if (logic != nullptr){
             input->push_back(logic);
         }

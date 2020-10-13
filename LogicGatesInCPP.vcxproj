@@ -143,8 +143,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\LogicGateLibrary\And.h" />
-    <ClInclude Include="Include\LogicGateLibrary\Gate.h" />
-    <ClInclude Include="Include\LogicGateLibrary\Logic.h" />
+    <ClInclude Include="Include\LogicGateLibrary\IGate.h" />
+    <ClInclude Include="Include\LogicGateLibrary\ILogic.h" />
     <ClInclude Include="Include\LogicGateLibrary\LogicGateLibrary.h" />
     <ClInclude Include="Include\LogicGateLibrary\MultipleInput.h" />
     <ClInclude Include="Include\LogicGateLibrary\Nand.h" />
