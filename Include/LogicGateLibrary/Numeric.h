@@ -1,8 +1,8 @@
 #pragma once
-#include "Logic.h"
+#include "ILogic.h"
 
 template<typename T = u_char>
-class Numeric : public Logic<T> {
+class Numeric : public ILogic<T> {
 public:
     Numeric(const T number) : m_number(number) {};
 

@@ -10,7 +10,7 @@ public:
     }
 
     T operation(){
-        T result = std::accumulate(this->input->begin(), this->input->end(), resultOfFirstElement(), [] (T l1, Logic<T>* l2){
+        T result = std::accumulate(this->input->begin(), this->input->end(), resultOfFirstElement(), [] (T l1, ILogic<T>* l2){
            return l1 & l2->operation();
         });
         return result;

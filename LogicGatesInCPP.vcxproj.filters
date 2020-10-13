@@ -26,9 +26,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Include\LogicGateLibrary\Logic.h">
-      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
-    </ClInclude>
     <ClInclude Include="Include\LogicGateLibrary\MultipleInput.h">
       <Filter>Header Files\Includes\LogicGateLibrary</Filter>
     </ClInclude>
@@ -56,9 +53,6 @@
     <ClInclude Include="Include\LogicGateLibrary\And.h">
       <Filter>Header Files\Includes\LogicGateLibrary</Filter>
     </ClInclude>
-    <ClInclude Include="Include\LogicGateLibrary\Gate.h">
-      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
-    </ClInclude>
     <ClInclude Include="Include\LogicGateLibrary\Version.h">
       <Filter>Header Files\Includes\LogicGateLibrary</Filter>
     </ClInclude>
@@ -66,6 +60,12 @@
       <Filter>Header Files\Includes\LogicGateLibrary</Filter>
     </ClInclude>
     <ClInclude Include="Include\LogicGateLibrary\Numeric.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\ILogic.h">
+      <Filter>Header Files\Includes\LogicGateLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\LogicGateLibrary\IGate.h">
       <Filter>Header Files\Includes\LogicGateLibrary</Filter>
     </ClInclude>
   </ItemGroup>

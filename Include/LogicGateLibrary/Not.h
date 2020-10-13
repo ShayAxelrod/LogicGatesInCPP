@@ -4,7 +4,7 @@
 template<typename T=u_char>
 class Not : public SingleInput<T> {
 public:
-    Not(Logic<T>* input) : SingleInput<T>() {
+    Not(ILogic<T>* input) : SingleInput<T>() {
         this->add(input);
     }
 
