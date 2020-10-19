@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shayax\Desktop\Logic Gates\FromRepo\LogicGatesInCPP\build\CMakeFiles\fe6cd4d9168720d37a714e83a80a4f2d\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{212FD870-9F1A-31C4-931B-97F8813DBD53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

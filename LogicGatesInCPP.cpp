@@ -9,4 +9,4 @@ int main() {
 	std::cout << static_cast<int>(Or<>(&Numeric<>(6), &Numeric<>(5)).operation()) << std::endl;
 
 	return 0;
-}
+} 

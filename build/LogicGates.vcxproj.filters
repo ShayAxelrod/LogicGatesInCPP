@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\shayax\Desktop\Logic Gates\FromRepo\LogicGatesInCPP\LogicGatesInCPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\shayax\Desktop\Logic Gates\FromRepo\LogicGatesInCPP\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F0200511-1E9E-398F-B90E-4F06F3D0E0C9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
